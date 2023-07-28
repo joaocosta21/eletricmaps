@@ -8,4 +8,6 @@ Attentions -
     API credential with no restrictions
 
 Thoughts -
-    Two "button" for streets to make a route???
+    Two "buttons" of streets to make a route???
+    learn how to make routes with one or multiple destinations
+    
