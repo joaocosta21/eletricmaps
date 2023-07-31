@@ -4,11 +4,11 @@
 Project summary -
     default google maps working on liveshare
 
-Attentions -
+Warnings -
     API credential with no restrictions
 
 Thoughts -
-    Two "buttons" of streets to make a route???
+    Two "buttons" of streets to make a route???(google directions api)
     learn how to make routes with one or multiple destinations
     
 
