@@ -5,6 +5,9 @@ function initMap() {
         center: { lat: 38.7223, lng: -9.1393 },
         zoom: 8,
     });
+    google.maps.event.addListener(map, "click", function (event) {
+        this.setOptions({ scrollwheel: true })
+    })
     infoWindow = new google.maps.InfoWindow();
 
     const locationButton = document.createElement("button");
