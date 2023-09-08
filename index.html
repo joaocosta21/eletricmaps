@@ -15,16 +15,16 @@
     <h1>UWU</h1>
     <div class="container">
         <div class="form-group">
-            <input type="text" class="form-control" placeholder="Source Location" id="source">
+            <input id="source" class="form-control" placeholder="Source Location">
         </div>
         <div class="form-group">
-            <input type="text" class="form-control" placeholder="Destination Location" id="destination">
+            <input id="dest" class="form-control" placeholder="Destination Location">
         </div>
         <button class="btn btn-primary ">Get directions</button>
     </div>
     <div id="map"></div>
     <script
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD3kY_RY5eXI9RLg3Rbw3BPmXF1uf23nLU&callback=initMap&v=weekly"
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD3kY_RY5eXI9RLg3Rbw3BPmXF1uf23nLU&callback=initMap&v=weekly&libraries=places"
         async></script>
 </body>
 
