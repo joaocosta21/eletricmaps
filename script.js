@@ -1,13 +1,27 @@
-let map;
+let map, directionsService, directionsRenderer;
+let sourceAutocomplete, desAutocomplete
 
 function initMap() {
     map = new google.maps.Map(document.getElementById('map'), {
         center: { lat: 38.7223, lng: -9.1393 },
         zoom: 8,
     });
+
     google.maps.event.addListener(map, "click", function (event) {
         this.setOptions({ scrollwheel: true })
     })
+
+    directionsService = new google.maps.DirectionsService()
+    directionsRenderer = new google.maps.DirectionsRenderer()
+    directionsRenderer.setMap(map)
+
+    sourceAutocomplete = new google.maps.places.Autocomplete(
+        document.getElementById('source')
+    )
+    desAutocomplete = new google.maps.places.Autocomplete(
+        document.getElementById('dest')
+    )
+
     infoWindow = new google.maps.InfoWindow();
 
     const locationButton = document.createElement("button");
