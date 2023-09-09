@@ -65,5 +65,21 @@ function handleLocationError(browserHasGeolocation, infoWindow, pos) {
     infoWindow.open(map);
 }
 
+function calcRoute(){
+    var source = document.getElementById('source').value;
+    var dest = document.getElementById('dest').value;
+    var request = {
+        origin: source,
+        destination:dest,
+        travelMode:'DRIVING',
+    };
+
+    directionsService.route(request, function(result,status){
+        if(status == "OK"){
+            directionsRenderer.setDirections(result);
+        }
+    });
+}
+
 window.initMap = initMap;
 
