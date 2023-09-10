@@ -15,3 +15,5 @@ Thoughts -
 [google maps javascript api documentation](https://developers.google.com/maps/documentation/javascript/directions?hl=pt-br#:~:text=To%20use%20directions%20in%20the,upon%20receipt%20of%20the%20response)
 
 [google api console](https://console.cloud.google.com/google/maps-apis/api-list?project=eletric-charger-map&hl=pt-br)
+
+[google directions api documentation]https://developers.google.com/maps/documentation/directions/overview?hl=pt-br
