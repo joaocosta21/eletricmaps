@@ -16,4 +16,4 @@ Thoughts -
 
 [google api console](https://console.cloud.google.com/google/maps-apis/api-list?project=eletric-charger-map&hl=pt-br)
 
-[google directions api documentation]https://developers.google.com/maps/documentation/directions/overview?hl=pt-br
+[google directions api documentation](https://developers.google.com/maps/documentation/directions/overview?hl=pt-br)
